@@ -1,6 +1,6 @@
 /**
 This component displays the header that is common for all screens in the top side of the page layout
- */
+*/
 
 import React, { useState } from 'react';
 
@@ -114,8 +114,8 @@ const Header = (props) => {
                 }, 2000);
 
                 /** If the user is shown the login modal because he clicked the book show 
-                 * button without logging in, then take the user to the book show page
-                 */
+                * button without logging in, then take the user to the book show page
+                */
                 if (bookShowRequested) {
                     history.push('/bookshow/' + props.id);
                     setBookShowRequested(false);
