@@ -8,8 +8,9 @@ import Header from '../../common/header/Header';
 import Typography from '@material-ui/core/Typography';
 import './Details.css';
 import YouTube from 'react-youtube';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
+import ImageListItem from '@material-ui/core/ImageListItem';
+import ImageListItemBar from '@material-ui/core/ImageListItemBar'
+// import GridListTileBar from '@material-ui/core/GridListTileBar';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -171,15 +172,15 @@ const Details = (props) => {
                     <div className="paddingRight">
                         <ImageList rowHeight={160} cols={2}>
                             {movie.artists != null && movie.artists.map(artist => (
-                                <GridListTile
+                                <ImageListItem
                                     className="gridTile"
                                     onClick={() => artistClickHandler(artist.wiki_url)}
                                     key={artist.id}>
                                     <img src={artist.profile_url} alt={artist.first_name + " " + artist.last_name} />
-                                    <GridListTileBar
+                                    <ImageListItemBar
                                         title={artist.first_name + " " + artist.last_name}
                                     />
-                                </GridListTile>
+                                </ImageListItem>
                             ))}
                         </ImageList>
                     </div>
