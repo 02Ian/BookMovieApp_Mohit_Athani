@@ -2,7 +2,7 @@
 This component displays the upcoming movies in the top side of the page layout
  */
 
-import { ImageList, GridListTile, GridListTileBar } from "@material-ui/core";
+import { ImageList, ImageListItem, ImageListItemBar} from "@material-ui/core";
 import React,{useState,useEffect} from 'react';
 import axios from 'axios';
 import { withStyles } from '@material-ui/core/styles';
@@ -45,10 +45,10 @@ const UpcomingMovies =(props)=> {
 
                 <ImageList cols={5} className={classes.gridListUpcomingMovies} >
                     {upcomingMovies.map(movie => (
-                        <GridListTile key={"upcoming" + movie.id}>
+                        <ImageListItem  key={"upcoming" + movie.id}>
                             <img src={movie.poster_url} className="movie-poster" alt={movie.title} />
-                            <GridListTileBar title={movie.title} />
-                        </GridListTile>
+                            <ImageListItemBar title={movie.title} />
+                        </ImageListItem >
                     ))}
                 </ImageList>
                 </div>

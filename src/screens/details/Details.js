@@ -118,7 +118,7 @@ const Details = (props) => {
 
                 <div className="middleDetails">
                     <div>
-                        <Typography variant="headline" component="h2">{movie.title} </Typography>
+                        <Typography variant="h2">{movie.title} </Typography>
                     </div>
                     <br />
                     <div>
