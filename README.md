@@ -84,6 +84,9 @@ Open `http://localhost:8085/api/swagger-ui.html` in a browser and you should see
 
 Start with the coding and make sure all point to the correct URL of the backend application.
 
+Use npm install
+then post all dependencies are downloaded you can then start the applcaition.
+
 Happy coding then .....!!!!
 
 Had a great experience have a good day.
