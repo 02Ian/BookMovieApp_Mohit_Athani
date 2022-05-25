@@ -27,9 +27,8 @@ Happy coding then .....!!!!
 
 ```Had a great experience have a good day.
 
-![image](https://user-images.githubusercontent.com/37692875/170244425-961f070b-a625-4ad2-ba0c-021e18c314d9.png)
-
-![image](https://user-images.githubusercontent.com/37692875/170244825-5ed2a782-ef12-41db-b511-65e06f19f1d0.png)
+[image](https://user-images.githubusercontent.com/37692875/170244425-961f070b-a625-4ad2-ba0c-021e18c314d9.png)
+[image](https://user-images.githubusercontent.com/37692875/170244825-5ed2a782-ef12-41db-b511-65e06f19f1d0.png)
 
 #Login Screen.
 ![image](https://user-images.githubusercontent.com/37692875/170244968-f0dc60ec-e3c0-4df0-be74-070d9e618bbc.png)
